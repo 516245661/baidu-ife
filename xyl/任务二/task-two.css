@@ -1,0 +1,196 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #DEDEDE;
+	font-family: "微软雅黑";
+}
+
+
+/*p标签样式*/
+
+p {
+	line-height: 25px;
+}
+
+
+/*头部*/
+
+.header {
+	float: left;
+	width: 100%;
+	height: 80px;
+    background-color: #333333;
+    color: white;
+}
+.header ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.header .top-img {
+	float: left;
+}
+
+.header .top-img img {
+	height: 80px;
+}
+
+.header .top-nav {
+	float: right;
+}
+
+.header .top-nav li {
+	float: left;
+	width: 120px;
+	line-height: 80px;
+}
+
+
+/*主体内容*/
+
+.content {
+	width: 100%;
+	float: left;
+}
+
+
+/*每个区块的样式*/
+
+.frist,
+.second,
+.third,
+.end,
+.sidebar {
+	background: white;
+	float: left;
+	margin: 2%;
+	border: 2px solid #DEDEDE;
+	padding: 1%;
+	z-index: 3;
+	width: 94%;
+}
+
+
+/*一级标题*/
+
+.title-one {
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+
+/*二级标题*/
+
+.title-two {
+	font-size: 15px;
+	color: #8E9092;
+	margin: 10px 0px;
+}
+
+
+/*发表时间*/
+
+.title-span {
+	width: 100%;
+	float: left;
+	font-size: 13px;
+	color: #8E9092;
+	margin: 10px 0px;
+}
+
+
+/*第一个标题*/
+
+.frist img {
+	margin: 20px 0px;
+}
+
+
+/*第二个标题*/
+
+.second img {
+	margin: 20px 0px;
+}
+
+.second-nav li {
+	list-style: none;
+}
+
+.third-pic {
+	margin: 10px 0px;
+	width: 300px;
+	height: 300px;
+	border: 2px solid #DEDEDE;
+	text-align: center;
+}
+
+.third-pic p {
+	height: 50px;
+	line-height: 50px;
+}
+
+.third-pic img {}
+
+
+/*end 最后一个标题*/
+
+.end ol {
+	float: left;
+	width: 100%;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.end table {
+	float: left;
+	width: 97%;
+	text-align: left;
+	font-size: 13px;
+}
+
+.end table .tr2 {
+	background: black;
+	color: white;
+}
+
+.s-input {
+	margin: 10px 0px;
+}
+
+.s-input span {
+    margin-right: 5px;
+    text-align: right;
+    float: left;
+    width: 25%;
+}
+.s-input p{
+    font-size: 12px;
+    color: red;
+    margin-left: 25%;
+}
+.s-input b{
+    font-size: 14px;
+    font-weight: 100;
+}
+.s-button{
+		margin: 10px 0px;
+}
+
+.footer p {
+	line-height: 80px;
+}
+.s-button button{
+	margin-left: 25%;
+}
+/*尾部*/
+.footer{
+	height: 80px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background: #333333;
+	color: white;
+}
